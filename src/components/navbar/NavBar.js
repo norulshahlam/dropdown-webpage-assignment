@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import iconarrowdown from "../../images/icon-arrow-down.svg";
 import iconarrowup from "../../images/icon-arrow-up.svg";
 import iconmenu from "../../images/icon-menu.svg";
@@ -40,7 +40,7 @@ const NavBar = () => {
               type="button"
             >
               <div className="border-stone-50 border-2 rounded-xl [&>*>*]:inline px-4">
-                {featuresDropDownIcons.map((v,i) => (
+                {featuresDropDownIcons.map((v, i) => (
                   <FeatureDropdown key={i} icon={v.icon} name={v.name} />
                 ))}
               </div>
@@ -62,7 +62,7 @@ const NavBar = () => {
               type="button"
             >
               <div className="border-stone-50 border-2 rounded-xl [&>*>*]:inline px-4 py-1">
-                {companyDropDownIcons.map((v,i) => (
+                {companyDropDownIcons.map((v, i) => (
                   <CompanyDropDown key={i} text={v.text} />
                 ))}
               </div>

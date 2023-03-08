@@ -3,7 +3,7 @@ import React from "react";
 const FeatureDropdown = ({ icon, name }) => {
   return (
     <div>
-      <img src={icon}></img>
+      <img className="pr-2" src={icon}></img>
       <a> {name} </a>
     </div>
   );
