@@ -1,5 +1,4 @@
 import React from "react";
-import { useState } from "react";
 import iconclosemenu from "../../images/icon-close-menu.svg";
 import iconarrowdown from "../../images/icon-arrow-down.svg";
 import iconarrowup from "../../images/icon-arrow-up.svg";
@@ -34,8 +33,8 @@ const BurgerMenu = ({ burgerMenuBar }) => {
         </div>
         {featureList & (featuresDropDownIcons.length > 0) ? (
           <div className="[&>*>*]:inline px-8">
-            {featuresDropDownIcons.map((v) => (
-              <FeatureDropdown icon={v.icon} name={v.name} />
+            {featuresDropDownIcons.map((v, i) => (
+              <FeatureDropdown key={i} icon={v.icon} name={v.name} />
             ))}
           </div>
         ) : null}
@@ -52,8 +51,8 @@ const BurgerMenu = ({ burgerMenuBar }) => {
           {companyList & (companyDropDownIcons.length > 0) ? (
             <div>
               <div className="[&>*>*]:inline px-8 py-1">
-                {companyDropDownIcons.map((v) => (
-                  <CompanyDropDown text={v.text} />
+                {companyDropDownIcons.map((v, i) => (
+                  <CompanyDropDown key={i} text={v.text} />
                 ))}
               </div>
             </div>

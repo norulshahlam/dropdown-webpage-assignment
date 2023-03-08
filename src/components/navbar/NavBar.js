@@ -2,8 +2,6 @@ import React from "react";
 import iconarrowdown from "../../images/icon-arrow-down.svg";
 import iconarrowup from "../../images/icon-arrow-up.svg";
 import iconmenu from "../../images/icon-menu.svg";
-
-import { useState, useEffect } from "react";
 import FeatureDropdown from "./FeatureDropdown";
 import {
   featuresDropDownIcons,
@@ -42,8 +40,8 @@ const NavBar = () => {
               type="button"
             >
               <div className="border-stone-50 border-2 rounded-xl [&>*>*]:inline px-4">
-                {featuresDropDownIcons.map((v) => (
-                  <FeatureDropdown icon={v.icon} name={v.name} />
+                {featuresDropDownIcons.map((v,i) => (
+                  <FeatureDropdown key={i} icon={v.icon} name={v.name} />
                 ))}
               </div>
             </div>
@@ -64,8 +62,8 @@ const NavBar = () => {
               type="button"
             >
               <div className="border-stone-50 border-2 rounded-xl [&>*>*]:inline px-4 py-1">
-                {companyDropDownIcons.map((v) => (
-                  <CompanyDropDown text={v.text} />
+                {companyDropDownIcons.map((v,i) => (
+                  <CompanyDropDown key={i} text={v.text} />
                 ))}
               </div>
             </div>
