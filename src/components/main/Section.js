@@ -7,7 +7,7 @@ const Section = () => {
   return (
     <div
       className="flex flex-col-reverse sm:flex-row  
-    [&>div]:p-8 sm:[&>div]:p-12 lg:px-12"
+    [&>div]:p-8 lg:px-12"
     >
       <div className="sm:text-left text-center w-full">
         <div className=" lg:text-6xl md:text-5xl text-3xl font-bold sm:max-w-[30rem] xl:pt-16 md:pt-8">
@@ -34,7 +34,7 @@ const Section = () => {
           className="hidden sm:block max-h-[45rem] min-h-[15rem] mx-auto my-auto"
           src={imageherodesktop}
         />
-        <img className="sm:hidden block max-h-[35rem]" src={imageheromobile} />
+        <img className="sm:hidden block max-h-[30rem]" src={imageheromobile} />
       </div>
     </div>
   );

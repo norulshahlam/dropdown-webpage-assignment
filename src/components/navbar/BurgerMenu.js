@@ -15,10 +15,10 @@ const BurgerMenu = ({ burgerMenuBar }) => {
 
   return (
     <div
-      className="sm:hidden absolute right-0 top-0 h-[60rem] w-2/3 text-base leading-10 text-black font-medium shadow-[0px_220px_20px_400px_rgba(0,0,0,0.5)]"
+      className="sm:hidden absolute right-0 top-0 h-full w-2/3 text-base leading-10 text-black font-medium shadow-[0px_220px_20px_400px_rgba(0,0,0,0.5)]"
       type="button"
     >
-      <div className="px-8 pt-[1rem] h-[66rem]">
+      <div className="px-8 pt-[1rem] h-full">
         <div className="flex flex-row-reverse pb-8 pr-1">
           <button onClick={burgerMenuBar}>
             <img src={iconclosemenu} />
