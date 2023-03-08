@@ -31,6 +31,7 @@ const NavBar = () => {
         >
           <button>Features</button>
           <img
+            alt=""
             className="inline ml-2"
             src={featureList ? iconarrowup : iconarrowdown}
           />
@@ -53,6 +54,7 @@ const NavBar = () => {
         >
           <button>Company</button>
           <img
+            alt=""
             className="inline ml-2"
             src={companyList ? iconarrowup : iconarrowdown}
           />
@@ -82,6 +84,7 @@ const NavBar = () => {
         </button>
         <div className="sm:hidden">
           <button
+            alt=""
             onClick={() => setBurgerMenu((current) => !current)}
             className="inline my-auto"
           >
