@@ -31,7 +31,7 @@ const Section = () => {
       </div>
       <div className="w-full max-h-[35rem]">
         <img
-          className="hidden sm:block max-h-[45rem] min-h-[15rem] mx-auto my-auto"
+          className="hidden sm:block max-h-[40rem] min-h-[15rem] mx-auto my-auto"
           src={imageherodesktop}
         />
         <img className="sm:hidden block max-h-[30rem]" src={imageheromobile} />
