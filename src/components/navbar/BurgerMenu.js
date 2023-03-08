@@ -50,7 +50,7 @@ const BurgerMenu = ({ burgerMenuBar }) => {
           />
           {companyList & (companyDropDownIcons.length > 0) ? (
             <div>
-              <div className="[&>*>*]:inline px-8 py-1">
+              <div className="px-8 py-1">
                 {companyDropDownIcons.map((v, i) => (
                   <CompanyDropDown key={i} text={v.text} />
                 ))}

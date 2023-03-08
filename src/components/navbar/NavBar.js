@@ -75,7 +75,7 @@ const NavBar = () => {
         <button className="webview">About</button>
       </div>
       <div
-        className="flex items-center md:[&>*]:mx-4 [&>button]:mx-2 text-sm md:text-base 
+        className="flex items-center md:[&>*]:mx-4 [&>button]:mx-4 text-sm md:text-base 
       [&>button]:hidden sm:[&>button]:inline"
       >
         <button>Login</button>

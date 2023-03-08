@@ -18,7 +18,7 @@ const Section = () => {
           Get your team in sync, no matter your location. Streamline processes,
           create team rituals, and watch productivity soar
         </h2>
-        <button className="px-4 py-2 bg-black text-white box-border border-2 border-gray-500 rounded-xl min-w-max xl:my-28 lg:my-16 md:my-10 sm:my-8 my-8">
+        <button className="px-4 py-2 bg-black text-white box-border border-2 border-gray-500 rounded-xl min-w-max lg:my-16 md:my-10 sm:my-8 my-8">
           Learn more
         </button>
         <ol className="flex md:justify-start justify-center">
