@@ -10,7 +10,7 @@ const Section = () => {
     [&>div]:p-8 sm:[&>div]:p-12 lg:px-12"
     >
       <div className="sm:text-left text-center w-full">
-        <div className=" lg:text-6xl md:text-5xl text-3xl font-bold sm:max-w-[30rem] xl:py-4 md:pt-8">
+        <div className=" lg:text-6xl md:text-5xl text-3xl font-bold sm:max-w-[30rem] xl:pt-16 md:pt-8">
           Make remote work
         </div>
         <br />
@@ -18,7 +18,7 @@ const Section = () => {
           Get your team in sync, no matter your location. Streamline processes,
           create team rituals, and watch productivity soar
         </h2>
-        <button className="px-4 py-2 bg-black text-white box-border border-2 border-gray-500 rounded-xl min-w-max xl:my-28 lg:my-16 sm:my-14 my-8">
+        <button className="px-4 py-2 bg-black text-white box-border border-2 border-gray-500 rounded-xl min-w-max xl:my-28 lg:my-16 md:my-10 sm:my-8 my-8">
           Learn more
         </button>
         <ol className="flex md:justify-start justify-center">
