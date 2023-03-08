@@ -38,7 +38,7 @@ const NavBar = () => {
               class="absolute -left-8 p-2 px-32 m-2 text-xs leading-8 text-black drop-shadow-2xl"
               type="button"
             >
-              <div className="border-stone-50 border-2 rounded-xl [&>*>*]:inline px-4">
+              <div className="border-stone-50 border-2 rounded-xl px-4">
                 {featuresDropDownIcons.map((v, i) => (
                   <FeatureDropdown key={i} icon={v.icon} name={v.name} />
                 ))}

@@ -33,7 +33,7 @@ const BurgerMenu = ({ burgerMenuBar }) => {
           />
         </div>
         {featureList & (featuresDropDownIcons.length > 0) ? (
-          <div className="[&>*>*]:inline px-8">
+          <div className="px-6">
             {featuresDropDownIcons.map((v, i) => (
               <FeatureDropdown key={i} icon={v.icon} name={v.name} />
             ))}
