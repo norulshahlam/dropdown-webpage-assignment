@@ -21,10 +21,8 @@ const NavBar = () => {
 
   return (
     <div className="navbar flex w-full md:p-4 p-8 mx-auto justify-between font-bold h-16">
-      <div className="flex items-center [&>*]:mx-2 md:[&>*]:mx-4 text-sm md:text-base [&>.webview]:hidden sm:[&>.webview]:inline">
-        <div>
-          <div className="pb-2 text-4xl">snap</div>
-        </div>
+      <div className="flex items-center md:[&>*]:mx-4 text-sm md:text-base [&>.webview]:hidden sm:[&>.webview]:inline">
+        <div className="pb-2 text-4xl">snap</div>
         <div
           onClick={() => setFeatureList((curr) => !curr)}
           className="webview dropdown inline-block cursor-pointer"
