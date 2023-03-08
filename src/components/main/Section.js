@@ -24,17 +24,27 @@ const Section = () => {
         <ol className="flex md:justify-start justify-center">
           {clientIcon.map((v, i) => (
             <li key={i}>
-              <img className="sm:pr-4 sm:px-1 px-2" key={i} src={v.icon} />
+              <img
+                alt=""
+                className="sm:pr-4 sm:px-1 px-2"
+                key={i}
+                src={v.icon}
+              />
             </li>
           ))}
         </ol>
       </div>
       <div className="w-full max-h-[35rem]">
         <img
+          alt=""
           className="hidden sm:block max-h-[40rem] min-h-[15rem] mx-auto my-auto"
           src={imageherodesktop}
         />
-        <img className="sm:hidden block max-h-[30rem]" src={imageheromobile} />
+        <img
+          alt=""
+          className="sm:hidden block max-h-[30rem]"
+          src={imageheromobile}
+        />
       </div>
     </div>
   );

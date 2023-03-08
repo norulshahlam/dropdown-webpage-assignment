@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import iconclosemenu from "../../images/icon-close-menu.svg";
 import iconarrowdown from "../../images/icon-arrow-down.svg";
 import iconarrowup from "../../images/icon-arrow-up.svg";
@@ -21,12 +21,13 @@ const BurgerMenu = ({ burgerMenuBar }) => {
       <div className="px-8 pt-[1rem] h-full">
         <div className="flex flex-row-reverse pb-8 pr-1">
           <button onClick={burgerMenuBar}>
-            <img src={iconclosemenu} />
+            <img alt="" src={iconclosemenu} />
           </button>
         </div>
         <div onClick={() => setFeatureList((curr) => !curr)}>
           <button>Features</button>
           <img
+            alt=""
             className="inline ml-2"
             src={featureList ? iconarrowup : iconarrowdown}
           />
@@ -45,6 +46,7 @@ const BurgerMenu = ({ burgerMenuBar }) => {
         >
           <button>Company</button>
           <img
+            alt=""
             className="inline ml-2"
             src={companyList ? iconarrowup : iconarrowdown}
           />

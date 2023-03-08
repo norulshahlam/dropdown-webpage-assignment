@@ -88,7 +88,7 @@ const NavBar = () => {
             onClick={() => setBurgerMenu((current) => !current)}
             className="inline my-auto"
           >
-            <img src={!burgerMenu ? iconmenu : null} />
+            <img alt="" src={!burgerMenu ? iconmenu : null} />
           </button>
         </div>
         {burgerMenu && <BurgerMenu burgerMenuBar={burgerMenuBar} />}
